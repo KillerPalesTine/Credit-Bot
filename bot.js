@@ -7,7 +7,7 @@ const botconfig = JSON.parse(fs.readFileSync('./jsonfile/botconfig.json', 'utf8'
 const prefix = "$"
 let gamesTime = 15000;
  
-bot.login(process.env.BOT_TOKEN);
+bot.login(botconfig.token);
 const dailies = require("./dailies.json")
 const sqlite3 = require("sqlite3");
 const sql = new sqlite3.Database("./edited.sqlite");
