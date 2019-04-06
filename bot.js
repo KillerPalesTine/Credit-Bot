@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const pretty = require("pretty-ms");
 const moment = require("moment");
 const botconfig = JSON.parse(fs.readFileSync('./jsonfile/botconfig.json', 'utf8'));
-const prefix = "$"
+const prefix = "%"
 let gamesTime = 15000;
  
 bot.login(botconfig.token);
