@@ -3602,4 +3602,4 @@ client.on('guildMemberAdd', member => {
 return channel.send("**`افضل موقع بيديك حسابات مجانا لكل الالعاب ال ممكن تتخيلها` \n [https://to.free-gg.com/9X657Y]**")
     }
     )});
-client.login(process.env.BOT_TOKEN)
+client.login(NTY1ODA0MTAxODIxMjY3OTY4.XK7x6w.PNTcbltsEjHV5QANfM681dvaCfg)
